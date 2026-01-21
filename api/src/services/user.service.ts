@@ -1,4 +1,4 @@
-import { Role } from "../generated/prisma/enums.js";
+import { Role } from "@prisma/client";
 import { prisma } from "../lib/prisma.lib.js";
 
 interface UpdateUserInput {
