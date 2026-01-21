@@ -1,4 +1,4 @@
-import { Role } from "@prisma/client";
+import { Role } from "../generated/prisma/enums.js";
 import { prisma } from "../lib/prisma.lib.js";
 
 interface IUserData {
